@@ -1,10 +1,11 @@
+
 .doublePort{
 	border:1px solid black;
 	background-color:black;
 	height:35px;
 	padding:5px;
 	position:relative;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   span{
 
   }
@@ -83,8 +84,23 @@
   }
 }
 .result{
-  p{
-    text-align: center;
+span{
+	font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+  table{
+    margin-left: -2px;
+    td{
+    padding:5px;
+    p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    }
+    
+    }
   }
 }
 #myCarousel{
@@ -118,7 +134,7 @@
 }
 .right {
     position: absolute;
-    bottom: 492px;
+    bottom: 456px;
     left: 70% !important;
     
     li{
@@ -131,18 +147,25 @@
         background-color:#A5A5A6!important;
       }
     }
+  }h4{
+  p{
+  font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
   }
+  }
+
   .shrift{
     span{
       font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 100;
-    opacity:0;
     }
     p{
-      font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
+    margin: 0;
     }
   }
 
@@ -150,4 +173,7 @@
 
  
  
+
+
+
 
